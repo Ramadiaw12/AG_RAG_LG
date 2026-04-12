@@ -1,4 +1,4 @@
-# 🧠 CV Intelligence — RAG-Powered Resume Analysis Agent
+# 🧠 RAG-Powered Resume Analysis Agent
 
 > An AI agent that reads, understands, and reasons over resumes using Retrieval-Augmented Generation — combining vector search with tool-augmented intelligence.
 
