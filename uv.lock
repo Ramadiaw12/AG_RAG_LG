@@ -14,7 +14,6 @@ source = { virtual = "." }
 dependencies = [
     { name = "chromadb" },
     { name = "grok" },
-    { name = "groq" },
     { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
@@ -31,7 +30,6 @@ dependencies = [
 requires-dist = [
     { name = "chromadb", specifier = ">=1.5.7" },
     { name = "grok", specifier = ">=6.2" },
-    { name = "groq", specifier = ">=1.6.0" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "langchain", specifier = ">=1.2.15" },
     { name = "langchain-community", specifier = ">=0.4.1" },
@@ -1200,23 +1198,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ff/98/248fc09d7cd0042d8b859e553424b138290584e4eae02d71dc15c7500d91/grokcore_viewlet-5.1.tar.gz", hash = "sha256:dd8fd05b10e43018fbac7fe28f65d7f74706ea8efd49f10e75db00776fcffe18", size = 25520, upload-time = "2026-02-18T07:10:30.642Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/23/b2/024748e4457759b8c85aae840a2257d8b60897113a9397ceede2ed4a0662/grokcore_viewlet-5.1-py3-none-any.whl", hash = "sha256:664a9e154f7e1b0d0945dd1a505798d84cac53c8cd015dfcc554f2a08d7f481a", size = 36079, upload-time = "2026-02-18T07:10:29.005Z" },
-]
-
-[[package]]
-name = "groq"
-version = "1.6.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "anyio" },
-    { name = "distro" },
-    { name = "httpx" },
-    { name = "pydantic" },
-    { name = "sniffio" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/67/3e/687064918e861082cb02165872bbda31269126a108a78794dae86ddadae2/groq-1.6.0.tar.gz", hash = "sha256:c4237ecf0053ba85fd926bb31cb4b178996310474b4618867994e3e40d8e3c02", size = 158424, upload-time = "2026-07-24T17:25:49.517Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/20/40/164338d796cf41ea5930a42023e986d8c993720bed670d5aa143e5854873/groq-1.6.0-py3-none-any.whl", hash = "sha256:fa16db582455db324adcff1b5908519474736872e28cd5c8fa2b8bef6860e12a", size = 143693, upload-time = "2026-07-24T17:25:48.2Z" },
 ]
 
 [[package]]
