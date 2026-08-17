@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.7",
+    "grok>=6.2",
     "ipykernel>=7.2.0",
     "langchain>=1.2.15",
     "langchain-community>=0.4.1",
